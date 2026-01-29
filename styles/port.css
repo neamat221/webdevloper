@@ -1,0 +1,85 @@
+    .open-sans-normal {
+        font-family: "Open Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-variation-settings: "wdth" 100;
+    }
+    
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0px 100px;
+    }
+    
+    .nav-title {
+        font-weight: 800;
+        font-size: 45px;
+    }
+    /*sharestyle for nav bar*/
+    
+    .text-primary {
+        color: #fd6e0a
+    }
+    
+    nav ul li {
+        list-style: none;
+        margin-right: 51px;
+    }
+    
+    nav ul li a {
+        text-decoration: none;
+        font-size: 20px;
+    }
+    
+    .dark-2 {
+        color: #474747;
+    }
+    
+    nav ul {
+        display: flex;
+        align-items: center;
+    }
+    
+    .btn-primary {
+        background-color: #fd6e0a;
+        color: white;
+        padding: 18px 35px;
+        border: none;
+        border-radius: 5px;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    
+    .banner-greeting {
+        font-size: 45px;
+        font-weight: 600;
+    }
+    
+    .banner-title {
+        font-size: 70px;
+        font-weight: 800;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    
+    .banner-pic {
+        width: 580px;
+        height: auto;
+    }
+    
+    .banner {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 35px 0 230px;
+    }
+    
+    .banner-content {
+        max-width: 580px;
+    }
+    
+    .header {
+        background-image: url('styles/panda.jpg');
+    }
