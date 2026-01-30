@@ -1,85 +1,141 @@
-    .open-sans-normal {
-        font-family: "Open Sans", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 400;
-        font-style: normal;
-        font-variation-settings: "wdth" 100;
-    }
-    
-    nav {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        margin: 0px 100px;
-    }
-    
-    .nav-title {
-        font-weight: 800;
-        font-size: 45px;
-    }
-    /*sharestyle for nav bar*/
-    
-    .text-primary {
-        color: #fd6e0a
-    }
-    
-    nav ul li {
-        list-style: none;
-        margin-right: 51px;
-    }
-    
-    nav ul li a {
-        text-decoration: none;
-        font-size: 20px;
-    }
-    
-    .dark-2 {
-        color: #474747;
-    }
-    
-    nav ul {
-        display: flex;
-        align-items: center;
-    }
-    
-    .btn-primary {
-        background-color: #fd6e0a;
-        color: white;
-        padding: 18px 35px;
-        border: none;
-        border-radius: 5px;
-        text-decoration: none;
-        font-size: 20px;
-        font-weight: 700;
-    }
-    
-    .banner-greeting {
-        font-size: 45px;
-        font-weight: 600;
-    }
-    
-    .banner-title {
-        font-size: 70px;
-        font-weight: 800;
-        margin-top: 10px;
-        margin-bottom: 20px;
-    }
-    
-    .banner-pic {
-        width: 580px;
-        height: auto;
-    }
-    
-    .banner {
-        display: flex;
-        justify-content: space-between;
-        margin: 0 35px 0 230px;
-    }
-    
-    .banner-content {
-        max-width: 580px;
-    }
-    
-    .header {
-        background-image: url('styles/panda.jpg');
-    }
+.open-sans-normal {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 100px;
+}
+
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+
+/*sharestyle for nav bar*/
+
+.text-primary {
+    color: #fd6e0a
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 51px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.dark-2 {
+    color: #474747;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.btn-primary {
+    background-color: #fd6e0a;
+    color: white;
+    padding: 18px 35px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.banner-greeting {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.banner-title {
+    font-size: 70px;
+    font-weight: 800;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.banner-pic {
+    width: 580px;
+    height: auto;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 230px;
+}
+
+.banner-content {
+    max-width: 580px;
+}
+
+.header {
+    background-image: url('style/orginpanda.jpg'), url('styles/autumn-leaf-falling-revealing-intricate-leaf-vein-generated-by-ai.jpg');
+}
+
+.section-title {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: rgb(35, 34, 34);
+}
+
+.section-description {
+    font-size: 20px;
+    color: #606060;
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+
+.secondary-bag {
+    background-color: #f5f5f5;
+}
+
+.about {
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+main section {
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+.about-items {
+    display: flex;
+    justify-content: space-around;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.skills-contatiner {
+    display: flex;
+    gap: 24px;
+}
+
+.skill {
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 5px 50px 0 rgba(0, 0, 0, 0.278);
+}
