@@ -251,3 +251,25 @@ footer input[type="text"] {
     gap: 24px;
     flex-wrap: wrap;
 }
+
+.header {
+    background-size: cover;
+    background-position: center;
+    padding: 20px 0;
+}
+
+..banner-title {
+    color: #fd6e0a;
+}
+
+.banner-content p {
+    color: #606060;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+@media screen and (max-width: 568px) and (max-width: 480px) {
+    .banner-content {
+        font-size: 16px;
+    }
+}
